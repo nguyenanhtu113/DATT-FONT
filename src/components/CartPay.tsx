@@ -5,9 +5,8 @@ type cartPayProps = {
     _id: number | string
     name: string
     price: number
-    quantity: number,
+    quantity: number
     img: string
-
 }
 const CartPay = ({ name, quantity, img }: cartPayProps) => {
 
